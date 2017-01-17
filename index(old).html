@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Архитектурно-ландшафтная компания &mdash; ArtFoglio.Ru </title>
+
+<link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+
+<script type="text/javascript" src="http://yandex.st/jquery/1.6.2/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("body").css("display","none").fadeIn("slow");
+});
+</script>
+<style type="text/css">
+
+   body
+   
+   {
+    background-color: #efebdf;
+    width:100%;
+	height:100%;
+    margin: 0;
+    padding: 0;
+   
+   }
+
+
+
+   .main { 
+	background-image:url(main.jpg); /* Путь к фоновому рисунку */
+    background-position: center top; /* Положение фона */
+    background-repeat: no-repeat; /* Повторяем фон по горизонтали */
+	background-color: #fbebd4;
+	width: 100%;
+	height: 640px;
+	
+   }
+   
+   .wrapper {
+   	width: 100%;
+    height: 75px;
+    margin-bottom: 20px;
+	background-image:url(images/templatemo_top.png);
+    background-repeat: repeat-x;
+	text-align: center;
+   
+   
+   }
+   
+
+   
+   .footer{
+   
+   background-color: #efebdf;
+   width: 100%;
+   height: 40px;
+   text-align: center;
+   }
+   
+   .footer1{
+   
+   background-color: #ada89e ;
+   width: 100%;
+   height: 1px;
+   }
+   
+   .ac_footer {
+    background: repeat-x scroll 0 0 url(images/templatemo_top.png);
+    bottom: 0;
+    height: 40px;
+    left: 0;
+    opacity: 1;
+    padding-top: 25px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+	text-align: center;
+	
+	
+}
+   
+  </style>
+  
+  
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+            $(function() {
+                $(window).scroll(function(){
+					var scrollTop = $(window).scrollTop();
+					if(scrollTop != 0)
+						$('.ac_footer').stop().animate({'opacity':'0.2'},400);
+					else	
+						$('.ac_footer').stop().animate({'opacity':'1'},400);
+				});
+				
+				$('.ac_footer').hover(
+					function (e) {
+						var scrollTop = $(window).scrollTop();
+						if(scrollTop != 0){
+							$('.ac_footer').stop().animate({'opacity':'1'},400);
+						}
+					},
+					function (e) {
+						var scrollTop = $(window).scrollTop();
+						if(scrollTop != 0){
+							$('.ac_footer').stop().animate({'opacity':'1'},400);
+						}
+					}
+				);
+            });
+        </script>
+  
+  
+</head>
+
+<body>
+
+<table width="100%" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+
+<tr width="100%" height="75px">
+<td class="wrapper">
+<br>
+<h3 style="color:brown">Архитектурно - Ландшафтная компания «ArtFoglio»</h3>
+</td>
+</tr>
+
+
+
+
+<tr width="100% height="auto">
+<td class="main" onclick='location.href="about.html"' title="войти на сайт">
+ &nbsp;
+</td>
+</tr>
+
+<tr width="100% height="auto">
+<td class="footer1">
+
+</td>
+</tr>
+
+
+<!--<tr width="100% height="auto">
+<td class="footer">
+<a href="about.html" class="h2">ВОЙТИ НА САЙТ</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="mailto:info@artfoglio.ru"; title="Написать письмо"><img src="images/icon-mail.gif"></a>&nbsp;&nbsp;<a href="mailto:info@artfoglio.ru" title="Написать письмо">info@artfoglio.ru</a>&nbsp;&nbsp;|&nbsp;&nbsp;тел. +7 916 631 89 90
+</td>
+</tr>
+-->
+
+
+
+
+
+</table>
+<div class="ac_footer">
+		<a href="about.html" class="h2">войти на сайт</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="mailto:info@artfoglio.ru"; title="Написать письмо"><img src="images/icon-mail.gif"></a>&nbsp;&nbsp;<a href="mailto:info@artfoglio.ru" title="Написать письмо">info@artfoglio.ru</a>&nbsp;&nbsp;|&nbsp;&nbsp;тел. +7 916 631 89 90
+
+</div>
+</body>
+</html>
